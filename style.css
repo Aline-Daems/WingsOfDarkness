@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+
+    text-decoration: none;
+    color: white;
+    
+}
+a:link {
+
+    text-decoration: none;
+}
+
+body {
+
+    background-color: black;
+   
+   
+}
+.logo {
+
+    width: 15rem;
+    height: 15rem;
+}
+.logoPicture {
+
+    background-image: url(pictures/Logo2021Blanc.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15rem;
+    height: 10rem;
+   
+
+
+}
+
+.menu {
+
+    width: 15rem;
+    height: 45rem;
+    background-color: RGBA(115,115,115,0.10);
+    border: 0px black solid;
+    border-radius: 10px;
+    font-family: "Aesthetic", sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    
+}
+
+nav {
+
+  
+}
+
+ .Home,
+ .Vtuber,
+ .Digital,
+ .Interview,
+ .Galery,
+ .Prices,
+ .Contact 
+ {
+
+    height: 3rem;
+ }
+
+
+
+ .HomeLight {
+    background-color: RGBA(121,120,119,0.15);
+    height: 3rem;
+    
+ }
+
+.icons {
+
+   margin-top: 1.5rem;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+}
+
+.Facebook,
+.Twitter,
+.Arts,
+.Deviant,
+.Discord, 
+.Twitch {
+
+    
+}
+
+.copy {
+
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    margin-top: 115px;
+}
+
+p {
+
+    color: white;
+}
+
+
+h2 {
+
+    color:white;
+}
+
+/* POLICES */
+
+@font-face {
+
+    font-family: "Aesthetic";
+    src: url("polices/Aesthetic.ttf");
+}
+
+.Facebook:hover{
+
+    color:#2F2FFC;
+}
+
+.Twitter:hover {
+
+    color:#2FBBFC;
+}
+
+.Arts:hover {
+
+    color:#01E3CF;
+}
+
+.Deviant:hover{
+
+    color:#A0ECE5;
+}
+
+.Discord:hover{
+
+    color:#A0AEEC;
+}
+
+.Twitch:hover {
+
+    color:#A309DA;
+}
