@@ -102,7 +102,7 @@ nav {
 
     font-size: 0.6rem;
     font-family: sans-serif;
-    margin-top: 115px;
+    margin-top: 165px;
 }
 
 p {
@@ -116,13 +116,7 @@ h2 {
     color:white;
 }
 
-/* POLICES */
-
-@font-face {
-
-    font-family: "Aesthetic";
-    src: url("polices/Aesthetic.ttf");
-}
+/* HOVER */
 
 .Facebook:hover{
 
@@ -153,3 +147,17 @@ h2 {
 
     color:#A309DA;
 }
+
+.Mail:hover {
+
+    color:#FC8585;
+}
+
+/* POLICES */
+
+@font-face {
+
+    font-family: "Aesthetic";
+    src: url("polices/Aesthetic.ttf");
+}
+
